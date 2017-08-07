@@ -2,7 +2,8 @@ body{
 	border: 1px solid red;
 	background: url('imagens/capa.png'), 
 				url('imagens/ruido.png'),
-				linear-gradient(#ff4169,#7c26f8);
+				linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed; /*imagem logo parada ao rolar barra de navegação*/
 }
 /**/
 /*Barra de navegação*/
