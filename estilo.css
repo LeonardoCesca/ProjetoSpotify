@@ -1,9 +1,13 @@
+html,body, .capa{
+	height: 100%;
+}
+
 body{
-	border: 1px solid red;
 	background: url('imagens/capa.png'), 
 				url('imagens/ruido.png'),
 				linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed; /*imagem logo parada ao rolar barra de navegação*/
+	font-family: Helvetica,Arial,sans-serif;
 }
 /**/
 /*Barra de navegação*/
@@ -42,3 +46,25 @@ nav.navbar-transparente{
 }
 
 /*Capa Principal*/
+
+.capa{
+	display: table;
+	width: 100%;
+}
+
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+/*Formatação Textos*/
+
+h1{
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -0.05em/* letras mais proximas */
+	
+}
