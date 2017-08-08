@@ -8,6 +8,10 @@ body{
 				linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed; /*imagem logo parada ao rolar barra de navegação*/
 	font-family: Helvetica,Arial,sans-serif;
+	/*
+	overflow-y: hidden; /*REMOVER BARRA VERTICAL DE ROLAGEM 
+	overflow-x: hidden; /*REMOVER BARRA HORIZONTAL DE ROLAGEM 
+	*/
 }
 /**/
 /*Barra de navegação*/
@@ -133,3 +137,23 @@ h3{ /*generico para usar depois */
 #servicos h2, #servicos h3{ /*para não precisar duplicar class="texto-roxo" em cada h2, h3 */
 	color: #7c25f8;
 }
+
+/*Sessão Recursos*/
+
+#recursos{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: white;
+}
+#recursos h3{ /*formatar grupo de elementos (EX: h3{)*/
+	color: #9bf0e1;
+}
+
+/*Rotacionar imagem Iphones
+
+.rotacionar{
+	-ms-tranform: rotate(30deg); Internet Explorer 9
+	-webkit-transform: rotate(30deg); Chrome
+	transform: rotate(30deg);
+}
+*/
