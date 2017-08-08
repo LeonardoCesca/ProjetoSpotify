@@ -42,11 +42,12 @@ nav.navbar-transparente{
 	margin: 16px 10px;
 }
 
-.navbar-inverse .navbar-nav>li>a{
+.navbar-inverse .navbar-nav>li>a, #rodape .nav a{
 	color: white;
 }
-.navbar-inverse .navbar-nav>li>a:hover{
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover{
 	color: #9bf0e1;
+	background: none; /*retirando fundo branco do rodapé*/
 }
 
 /*Capa Principal*/
@@ -118,6 +119,12 @@ h3{ /*generico para usar depois */
 	
 }
 
+#rodape h4{ /*apenas pro h4 que estiver dentro do rodapé*/
+	color:#919496;
+	font-size: 12px;
+	text-transform: upper-case;
+}
+
 .texto-roxo{
 	color:#7c25f8;
 }
@@ -161,6 +168,12 @@ h3{ /*generico para usar depois */
 /*Rodapé*/
 
 footer{
+	height: auto;
+	width: auto;
 	background: #000; /*cor preta*/
 	padding: 50px 0px 20px/*superior: 50px, lateral direita: 0px, inferior: 20px e lateral esquerda: 0px; */
+}
+
+.item-rede-social{
+	float: right;
 }
